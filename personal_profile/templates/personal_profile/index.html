@@ -1,0 +1,107 @@
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+
+    <!-- icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <link rel="stylesheet" href="{% static 'css/stayle.css' %}">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Porofile</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="">Porofile</a>
+            <a href="">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, Its Me</h3>
+            <h1>Amirtaha Danayi</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore expedita quod saepe qui veritatis perspiciatis fugit officia.</p>
+            <div class="social-media">
+                <a href=""><i class='bx bxl-facebook' ></i></a>
+                <a href=""><i class='bx bxl-twitter' ></i></a>
+                <a href=""><i class='bx bxl-instagram' ></i></a>
+                <a href="https://github.com/Amirtaha-Danayi?tab=repositories"><i class='bx bxl-github' ></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="{% static 'images/home.png' %}" alt="">
+        </div>
+    </section>
+
+
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="{% static 'images/about.png' %}" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Backend developer</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ipsam nulla, esse, nam distinctio sunt labore molestiae voluptate aspernatur obcaecati nostrum illum ab corporis repellendus vero laudantium minus ipsum? Incidunt labore culpa
+                nihil excepturi laboriosam magnam deserunt perspiciatis nesciunt dignissimos rerum eos, dolore magni in! Expedita.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+
+
+    <!-- Services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-content">
+            <div class="services-box">
+                <i class='bx bx-code-curly'></i>
+                <h3>Backend Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quod recusandae cupiditate veritatis numquam obcaecati officia sunt deserunt ipsam esse.</p>
+                <a href="#" class="btn">Read Me More</a>
+            </div>
+
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Frontend Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quod recusandae cupiditate veritatis numquam obcaecati officia sunt deserunt ipsam esse.</p>
+                <a href="#" class="btn">Read Me More</a>
+            </div>
+
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>test Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quod recusandae cupiditate veritatis numquam obcaecati officia sunt deserunt ipsam esse.</p>
+                <a href="#" class="btn">Read Me More</a>
+            </div>
+        </div>
+    </section>
+
+
+{#    <script src="js/script.js"></script>#}
+</body>
+
+</html>
